@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Passion+One|Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Bowlby+One|Passion+One|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Bangers|Bowlby+One|Passion+One|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Passion+One|Paytone+One|Squada+One&display=swap');/*header*/
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Kaushan+Script|Passion+One|Paytone+One|Squada+One&display=swap');
+*{
+    margin : 0px;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    display: flex;
+    padding-left: 35px;
+    height: 50px;
+    vertical-align: bottom;
+    border-radius: 20px;
+
+}
+nav{
+    display: flex;
+    padding: 15px 50px;
+   justify-content: space-between;
+   align-items: center;
+}
+.menu ul li{
+    padding-left: 10px;
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+.piclogo{
+    height: 60px;
+    margin-bottom: 10px;
+}
+.logo h1{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Bowlby One', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bangers', cursive;
+}
+.logo .shift{
+    color:#ffa81d;
+}
+ul{
+    padding-left: 290px;
+}
+.menu ul li a{
+    white-space: nowrap;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(2, 0, 0);
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+}
+.menu ul li a:hover{
+    border-bottom: 3px solid #ffa81d;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+}
+nav .btn1{
+    font-size: 15px;
+    padding: 7px 17px;
+    border: 3px solid #1ba1ff;
+    background-color: #1ba1ff;
+    color: #fff;
+}
+nav .btn2{
+    font-size: 15px;
+    margin-right: 50px;
+    padding: 7px 17px;
+    border: 3px solid #1ba1ff;
+    color:rgb(24, 188, 230);
+    background-color: #fff;
+}
+nav .btn2:hover{
+    background-color:#1ba1ff ;
+    color:#fff;
+}
+.body1{
+    display: flex;
+    background-image: url("../img/1.jpg");
+    background-position: cover;
+    height: 570px;
+}
+.body1 h1{
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    color:rgb(255, 255, 255);
+    font-size: 55px;
+    line-height: 1;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Squada One', cursive;
+    font-family: 'Paytone One', sans-serif;
+}
+.body1 p{
+    color:rgb(255, 255, 255);
+    font-size : 25px;
+    font-family: 'Passion One', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.body1 .btn1{
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 18px 40px;
+    border: #ffa81d;
+    background-color: #ffa81d;
+} 
+.body1 .btn2{
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 16px 65px;
+    border: 3px solid #ffffff;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0,0.0001);
+} 
+.body1 i{
+    font-size: 20px;
+}
+.body1text{
+    padding-top: 80px;
+    padding-left: 110px;
+}
+.play i{
+    color:#1ba1ff;
+    cursor: pointer;
+    padding-left: 340px;
+    padding-top: 250px;
+    font-size: 70px;
+    opacity: 0.6;
+
+}
+.play i:hover{
+    opacity: 1;
+}
+
+.body2{
+    height: 470px;
+    border-bottom:1px solid rgb(226, 226, 226);
+}
+.body2 .inf2{
+    display: flex;
+    padding: 15px 100px;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+.body2 .position{
+    padding-top: 95px;
+}
+.body2 h1{
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Squada One', cursive;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.body2 h3{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.body2 p{
+    color: #9e9ea6;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.body2 .More{
+    font-size: 15px;
+    padding: 10px 35px;
+    border: 3px solid #1ba1ff;
+    background-color: #1ba1ff;
+    color: #fff;
+    margin-left: 60px;
+}
+hr{
+    border: 1px solid #ffa81d;
+    height: 3px;
+    color: #ffa81d;
+    background-color: #ffa81d;
+    width: 48px;
+}
+.body2 hr{
+    margin-left: 48%;
+}
+.body3{
+    height: 480px;
+}
+video{
+    height: 300px;
+    margin-left: 60px;
+}
+
+.body3 .text{
+    margin-left:100px
+}
+.body3 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.body3 .position1{
+    display: flex;
+}
+.body3 .pres1{
+    display: flex;
+}
+.position1{
+    padding-top: 100px;
+}
+.body3 h1{
+    font-size: 36px; 
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Squada One', cursive;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+}
+.body3 .pres1 p{
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+color: #9e9ea6;
+margin: 0 25px;
+}
+.body3 .pres3 p{
+margin-left:115px ;
+font-size: 15px;
+font-weight: bold;
+color: #000;
+line-height: 22px;
+font-family: 'Roboto', sans-serif;
+}
+.body3 button{
+    font-size: 14px;
+    padding: 14px 40px;
+    border: 1px solid #1ba1ff;
+    background-color: #1ba1ff;
+    color: #fff;
+    margin-left: 115px;
+    font-family: 'Roboto', sans-serif;
+}
+.body3 .pres3 a{
+    color: #1ba1ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.body4{
+    background-color: #EDEEEF;
+    height: 170px;
+}
+.body4 .info p{
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.body4 button{
+    margin-left: 30px;
+    font-size: 18px;
+    padding: 20px 36px;;
+    border: 3px solid #1ba1ff;
+    color:#1ba1ff;
+    background-color: #EDEEEF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.body4 .info{
+    display: flex;
+    padding-top: 55px;
+    padding-left: 370px;
+}
+.body4 button:hover{
+    background-color: #1ba1ff;
+    color: #fff;
+}
+footer .fot1{
+    height: 335px;
+    border-bottom: 1.5px solid rgb(226, 226, 226) ;
+}
+footer .fot1 .info{
+    display: flex;
+}
+footer #text{
+    margin-left: 80px;
+    margin-top: 95px;
+}
+footer .fot1  h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .fot1 p{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9e9ea6;
+}
+footer .line1{
+    padding-top: 36px ;
+    padding-left: 25px;
+}
+footer .info p:hover{
+    color: #1ba1ff;
+}
+footer .fot2 .text{
+    display: flex;
+    height: 145px;
+    align-items: center;
+}
+footer .fot2 .logo{
+    color: #9e9ea6;
+    margin-left: 55px;
+}
+footer .fot2 p{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+footer .fot2 .p1{
+    color: #9e9ea6;
+    margin-left: 40px;
+    margin-top: 8px;
+
+}
+footer .fot2 .p2{
+    margin-left: 370px;
+    margin-top: 8px;
+}
+footer .fot2 .p3{
+    margin-left: 30px;
+    margin-top: 8px;
+}
+footer .fot2 a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color:#1ba1ff;
+}
